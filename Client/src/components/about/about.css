@@ -1,0 +1,93 @@
+.about {
+  margin-bottom: 80px;
+}
+.about .heading {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 20px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  color: rgb(42, 41, 41);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.servih2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #2d3954;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.owner {
+  /* display: flex; */
+width: 450px;
+height: 300px;
+/* align-items: center; */
+margin-bottom: 50px;
+
+
+
+
+}
+
+/* .aboutimg img{
+ 
+margin-right: 10px;
+width: 450px;
+border-radius: 10px;
+} */
+
+.about .hii{
+  text-align: right;
+  width: 100%;
+  font-size: 40px;
+  color:green;
+ 
+  display: flex;
+   
+}
+ .rightrow{
+  
+  padding-bottom: 2px;
+  padding-top: 200px
+
+ 
+}
+.leftrow{
+  padding-bottom: 2px;
+  padding-top: 115px
+}
+.roomimg{
+  width: 450px;
+}
+.roomimg2{
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+  }
+
+
+
+
+@media screen and (max-width: 768px) {
+  .about .container {
+    flex-direction: column;
+  }
+  .about p {
+    padding: 0;
+  }
+  .about .container img {
+    margin-top: 50px;
+  
+}
+}
+

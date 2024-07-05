@@ -1,0 +1,201 @@
+
+.container.contact_container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+}
+
+.contact_options {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 3rem;
+margin: auto;
+}
+
+.contact_option {
+  background: var(--color-bg-variant);
+  /* padding: 1.2rem 1.2 ; */
+
+  border-radius: 1.2rem ;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  border: 2px solid black;
+  
+
+
+}
+.icoonnn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myicon{
+  height: 30px;
+  width: 30px;
+}
+.contact_option:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+
+.contact_option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact_option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+
+/* ==== form ===*/
+form {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+   gap: 1.2rem; 
+}
+.contactmeform{
+align-items: center;
+padding: 23px;
+}
+
+/* input,
+textarea {
+  width: 100%;
+  
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: var(--color-white);
+} */
+.myform input{
+border: 2px solid black;
+}
+.myform textarea{
+border: 2px solid black;
+
+}
+
+/* ==== MEDIA QUERIES (MEDIUM DEVICES) ===*/
+@media screen and (max-width: 1024px){
+.container.contact_container {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+}
+
+/* ==== MEDIA QUERIES (SMALL DEVICES) ===*/
+@media screen and (max-width: 600px){
+  .container.contact_container {
+      width: var(--container-width-sm);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .contact form div {
+  display: flex;
+}
+.contact textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.contact input {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.contact form {
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .contact h4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact form div {
+    flex-direction: column;
+  }
+  .contact input {
+    width: 100%;
+  }
+} */
